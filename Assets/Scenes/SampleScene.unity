@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -387,6 +388,32 @@ MonoBehaviour:
   referenceResolution: {x: 1920, y: 1080}
   nearClipPlane: 0.1
   farClipPlane: 500
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e31fb5431e4d0d937eb66da9cf8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OPTINAV.Detection.OPTINAVFrameCapture
+  captureWidth: 640
+  captureHeight: 360
+  targetCaptureFPS: 30
+  jpegQuality: 75
+  flipVertical: 0
+  streamPort: 9001
+  maxQueueSize: 2
+  currentCaptureFPS: 0
+  totalCapturedFrames: 0
+  totalDroppedFrames: 0
+  lastCaptureLatencyMs: 0
+  lastCaptureTimestamp: 0
+  currentCaptureResolution: {x: 640, y: 360}
+  clientConnected: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +750,7 @@ GameObject:
   - component: {fileID: 900647816}
   - component: {fileID: 900647817}
   - component: {fileID: 900647818}
+  - component: {fileID: 900647819}
   m_Layer: 0
   m_Name: OPTINAV_DebugUI
   m_TagString: Untagged
@@ -781,6 +809,24 @@ MonoBehaviour:
   cameraRig: {fileID: 0}
   disturbanceController: {fileID: 0}
   simulationManager: {fileID: 0}
+--- !u!114 &900647819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900647815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950e7d3889ebe4972a6e990225aca14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OPTINAV.Detection.OPTINAVM3TestRunner
+  runAutomatedTest: 1
+  phaseDuration: 4
+  disturbanceController: {fileID: 790089512}
+  targetManager: {fileID: 1849959078}
+  cameraRig: {fileID: 1188802223}
+  frameCapture: {fileID: 330585549}
 --- !u!1 &1168323000
 GameObject:
   m_ObjectHideFlags: 0
