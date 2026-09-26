@@ -465,6 +465,14 @@ namespace OPTINAV.Tracking
             // 4x4 State Covariance Matrix P (Stored as flat array for cache locality)
             private readonly float[] P = new float[16];
 
+            // Reusable scratch buffers for zero-allocation prediction & correction
+            private readonly float[] M = new float[16];
+            private readonly float[] A = new float[16];
+            private readonly float[] AP = new float[16];
+            private readonly float[] newP = new float[16];
+            private readonly float[] Kvec0 = new float[4];
+            private readonly float[] Kvec1 = new float[4];
+
             // Filter Configuration
             public float ProcessNoise { get; set; }
             public float MeasurementNoise { get; set; }
@@ -543,7 +551,6 @@ namespace OPTINAV.Tracking
                 // Row 1: M[1,j] = P[1,j] + dt * P[3,j]
                 // Row 2: M[2,j] = P[2,j]
                 // Row 3: M[3,j] = P[3,j]
-                float[] M = new float[16];
                 for (int j = 0; j < 4; j++)
                 {
                     M[j] = P[j] + dt * P[8 + j];
@@ -647,7 +654,6 @@ namespace OPTINAV.Tracking
                 // H = [1 0 0 0; 0 1 0 0]
                 // K * H is 4x4 with only columns 0 and 1 non-zero:
                 // Row i: [Ki0, Ki1, 0, 0]
-                float[] A = new float[16];
                 for (int i = 0; i < 4; i++)
                 {
                     int row = i * 4;
@@ -661,7 +667,6 @@ namespace OPTINAV.Tracking
                 }
 
                 // Compute AP = A * P
-                float[] AP = new float[16];
                 for (int i = 0; i < 4; i++)
                 {
                     int iRow = i * 4;
@@ -677,7 +682,6 @@ namespace OPTINAV.Tracking
                 }
 
                 // Compute APA_T = AP * A^T
-                float[] newP = new float[16];
                 for (int i = 0; i < 4; i++)
                 {
                     int iRow = i * 4;
@@ -694,8 +698,8 @@ namespace OPTINAV.Tracking
 
                 // Add K * R * K^T (where R is diagonal with r)
                 // (K * R * K^T)_ij = r * (Ki0 * Kj0 + Ki1 * Kj1)
-                float[] Kvec0 = { K00, K10, K20, K30 };
-                float[] Kvec1 = { K01, K11, K21, K31 };
+                Kvec0[0] = K00; Kvec0[1] = K10; Kvec0[2] = K20; Kvec0[3] = K30;
+                Kvec1[0] = K01; Kvec1[1] = K11; Kvec1[2] = K21; Kvec1[3] = K31;
                 for (int i = 0; i < 4; i++)
                 {
                     for (int j = 0; j < 4; j++)
