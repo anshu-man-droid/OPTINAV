@@ -180,21 +180,22 @@ namespace OPTINAV.Control
         }
 
         /// <summary>
-        /// Ensures PID saturation limits respect the physical mechanical limits of the camera rig.
+        /// Ensures PID saturation limits respect the physical mechanical limits of the camera rig
+        /// while preserving the configured PID output/slew limits.
         /// </summary>
         public void SyncPidLimitsWithRig()
         {
             if (cameraRig == null) return;
 
-            // Pan travel limit
+            // Pan travel limit: preserve configured limits bounded by physical rig travel
             float maxPanTravel = (cameraRig.MaxPan - cameraRig.MinPan);
-            panPID.MinOutput = -maxPanTravel;
-            panPID.MaxOutput = maxPanTravel;
+            panPID.MinOutput = Mathf.Max(panPID.MinOutput, -maxPanTravel);
+            panPID.MaxOutput = Mathf.Min(panPID.MaxOutput, maxPanTravel);
 
-            // Tilt travel limit
+            // Tilt travel limit: preserve configured limits bounded by physical rig travel
             float maxTiltTravel = (cameraRig.MaxTilt - cameraRig.MinTilt);
-            tiltPID.MinOutput = -maxTiltTravel;
-            tiltPID.MaxOutput = maxTiltTravel;
+            tiltPID.MinOutput = Mathf.Max(tiltPID.MinOutput, -maxTiltTravel);
+            tiltPID.MaxOutput = Mathf.Min(tiltPID.MaxOutput, maxTiltTravel);
         }
 
         private void HandleTrackingStateChanged(TrackingState previousState, TrackingState newState)
