@@ -1,0 +1,404 @@
+[2026-09-28T08:46:03.425Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:46:03.429Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:46:03.430Z] M2 Camera: Pan=0.00°, Tilt=0.00°, TargetPan=0.00°, TargetTilt=0.00°
+[2026-09-28T08:46:03.430Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T08:46:03.430Z] M3 DetBridge: Connected=True, TotalRecv=1397, Det=True, Pt=(319.5, 102.0), Conf=0.90, Latency=14.8ms
+[2026-09-28T08:46:03.431Z] M4 Tracker: State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=0
+[2026-09-28T08:46:03.431Z] M5 Control: State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=0.00°, CmdTilt=0.00°
+[2026-09-28T08:46:03.431Z] ---------------------------------
+[2026-09-28T08:48:36.010Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:48:36.011Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:48:36.012Z] M2 Camera: Pan=0.00°, Tilt=0.00°, TargetPan=0.00°, TargetTilt=0.00°
+[2026-09-28T08:48:36.012Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T08:48:36.012Z] M3 DetBridge: Connected=True, TotalRecv=5195, Det=True, Pt=(319.5, 102.0), Conf=0.90, Latency=25.0ms
+[2026-09-28T08:48:36.012Z] M4 Tracker: State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=0
+[2026-09-28T08:48:36.013Z] M5 Control: State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=0.00°, CmdTilt=0.00°
+[2026-09-28T08:48:36.013Z] ---------------------------------
+[2026-09-28T08:50:26.071Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:50:26.075Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:50:26.075Z] M2 Camera: Pan=0.00°, Tilt=0.00°, TargetPan=0.00°, TargetTilt=0.00°
+[2026-09-28T08:50:26.075Z] M2 Disturb: Vib=False, Jitter=False, Haze=True, Blur=False, Noise=False
+[2026-09-28T08:50:26.076Z] M3 DetBridge (OPTINAV_DebugUI id=-6628): Connected=True, TotalRecv=371, Det=True, Pt=(319.4, 103.0), Conf=0.74, Latency=16.1ms
+[2026-09-28T08:50:26.076Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=NULL): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=0
+[2026-09-28T08:50:26.076Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=0.00°, CmdTilt=0.00°
+[2026-09-28T08:50:26.076Z] ---------------------------------
+[2026-09-28T08:52:04.624Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-7692).
+[2026-09-28T08:52:04.628Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:52:04.628Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:52:04.628Z] M2 Camera: Pan=0.00°, Tilt=0.00°, TargetPan=0.00°, TargetTilt=0.00°
+[2026-09-28T08:52:04.628Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=True, Noise=False
+[2026-09-28T08:52:04.629Z] M3 DetBridge (OPTINAV_DebugUI id=-7692): Connected=True, TotalRecv=189, Det=True, Pt=(319.3, 100.9), Conf=0.77, Latency=21.8ms
+[2026-09-28T08:52:04.629Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=OPTINAV_DebugUI(id=-7692)): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=0
+[2026-09-28T08:52:04.629Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=0.00°, CmdTilt=0.00°
+[2026-09-28T08:52:04.630Z] ---------------------------------
+[2026-09-28T08:52:22.617Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-7692).
+[2026-09-28T08:52:22.617Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:52:22.618Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:52:22.618Z] M2 Camera: Pan=-3.91°, Tilt=-45.00°, TargetPan=-3.91°, TargetTilt=-45.00°
+[2026-09-28T08:52:22.618Z] M2 Disturb: Vib=False, Jitter=False, Haze=True, Blur=True, Noise=True
+[2026-09-28T08:52:22.618Z] M3 DetBridge (OPTINAV_DebugUI id=-7692): Connected=True, TotalRecv=637, Det=False, Pt=(-1.0, -1.0), Conf=0.00, Latency=16.5ms
+[2026-09-28T08:52:22.619Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=OPTINAV_DebugUI(id=-7692)): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=445
+[2026-09-28T08:52:22.619Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=-3.91°, CmdTilt=-45.00°
+[2026-09-28T08:52:22.619Z] ---------------------------------
+[2026-09-28T08:53:06.558Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-7692).
+[2026-09-28T08:53:06.559Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T08:53:06.559Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T08:53:06.559Z] M2 Camera: Pan=0.95°, Tilt=-45.00°, TargetPan=0.95°, TargetTilt=-45.00°
+[2026-09-28T08:53:06.559Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T08:53:06.560Z] M3 DetBridge (OPTINAV_DebugUI id=-7692): Connected=True, TotalRecv=1732, Det=False, Pt=(-1.0, -1.0), Conf=0.00, Latency=23.8ms
+[2026-09-28T08:53:06.560Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=OPTINAV_DebugUI(id=-7692)): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=717
+[2026-09-28T08:53:06.560Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=0.95°, CmdTilt=-45.00°
+[2026-09-28T08:53:06.560Z] ---------------------------------
+[2026-09-28T08:53:24.558Z] ========================================================
+[2026-09-28T08:53:24.559Z] STARTING INTEGRATION TEST: ALL
+[2026-09-28T08:53:24.559Z] ========================================================
+[2026-09-28T08:53:24.560Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-7692).
+[2026-09-28T08:53:25.568Z] --- TEST 1: STATIONARY BEACON VALIDATION ---
+[2026-09-28T08:53:26.070Z] Initial: Pan=2.71°, Tilt=-45.00°, PxErr=198.9px
+[2026-09-28T08:53:26.575Z] [0.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:27.087Z] [1.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:27.590Z] [1.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:28.092Z] [2.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:28.600Z] [2.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:29.117Z] [3.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:29.634Z] [3.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:30.135Z] [4.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:30.651Z] [4.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:31.168Z] [5.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:31.669Z] [5.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:32.188Z] [6.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(3.12°, -45.00°), Aligned=False
+[2026-09-28T08:53:32.188Z] TEST 1 RESULT: FAIL
+[2026-09-28T08:53:32.189Z]   Criteria: Detected=False, TrackingState=False, Aligned=False, FinalErr=-1.0px, FinalAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:33.691Z] --- TEST 2: MOVING BEACON (LINEAR / CIRCULAR) VALIDATION ---
+[2026-09-28T08:53:34.718Z] [0.5s] TargetPos=4.7, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:35.223Z] [1.0s] TargetPos=6.5, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:35.733Z] [1.5s] TargetPos=7.6, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:36.233Z] [2.0s] TargetPos=8.0, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:36.750Z] [2.5s] TargetPos=7.6, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:37.267Z] [3.0s] TargetPos=6.3, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:37.784Z] [3.5s] TargetPos=4.5, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:38.286Z] [4.0s] TargetPos=2.2, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:38.801Z] [4.5s] TargetPos=-0.3, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:39.316Z] [5.0s] TargetPos=-2.9, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:39.819Z] [5.5s] TargetPos=-5.0, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:40.320Z] [6.0s] TargetPos=-6.7, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:40.834Z] [6.5s] TargetPos=-7.7, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:41.351Z] [7.0s] TargetPos=-8.0, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:41.869Z] [7.5s] TargetPos=-7.4, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:42.384Z] [8.0s] TargetPos=-6.1, M3Det=False, M4State=SEARCH, M5Err=-1.0px, CamAngles=(3.12°, -45.00°)
+[2026-09-28T08:53:42.384Z] TEST 2 RESULT: FAIL
+[2026-09-28T08:53:42.385Z]   Criteria: TrackingActive=False (0/16), CameraFollowed=False (PanRange=0.00°)
+[2026-09-28T08:53:43.902Z] --- TEST 3: CAMERA / PLATFORM DISTURBANCE VALIDATION ---
+[2026-09-28T08:53:43.902Z] Disturbances Enabled: Vibration=ON, Jitter=ON, Haze=ON, Blur=0.35, Noise=0.20
+[2026-09-28T08:53:44.416Z] [0.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:44.918Z] [1.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:45.434Z] [1.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:45.950Z] [2.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:46.451Z] [2.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:46.968Z] [3.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:47.484Z] [3.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:47.984Z] [4.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:48.500Z] [4.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:49.001Z] [5.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:49.517Z] [5.5s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:50.034Z] [6.0s] Det=False(conf=0.00), State=SEARCH, M5Err=-1.0px, Gimbal=(3.12°, -45.00°)
+[2026-09-28T08:53:50.035Z] TEST 3 RESULT: FAIL
+[2026-09-28T08:53:50.035Z]   Criteria: DetectionRate=0/12, TrackingFunctional=0/12
+[2026-09-28T08:53:51.550Z] --- TEST 4: SHORT BEACON DROPOUT VALIDATION ---
+[2026-09-28T08:53:53.556Z] [PRE-DROPOUT] State=SEARCH, HasMeas=False, Pt=(-1.0, -1.0)
+[2026-09-28T08:53:53.556Z] >>> TRIGGERING BEACON VISIBILITY LOSS (DROPOUT) <<<
+[2026-09-28T08:53:53.808Z] [DROPOUT 0.25s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=690
+[2026-09-28T08:53:54.068Z] [DROPOUT 0.50s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=696
+[2026-09-28T08:53:54.333Z] [DROPOUT 0.75s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=703
+[2026-09-28T08:53:54.584Z] [DROPOUT 1.00s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=709
+[2026-09-28T08:53:54.835Z] [DROPOUT 1.25s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=716
+[2026-09-28T08:53:55.086Z] [DROPOUT 1.50s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=723
+[2026-09-28T08:53:55.350Z] [DROPOUT 1.75s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=729
+[2026-09-28T08:53:55.601Z] [DROPOUT 2.00s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=735
+[2026-09-28T08:53:55.601Z] >>> RESTORING BEACON VISIBILITY <<<
+[2026-09-28T08:53:57.117Z] [POST-DROPOUT] M3_Det=False, M4_State=SEARCH, M4_HasMeas=False, Misses=774
+[2026-09-28T08:53:57.117Z] TEST 4 RESULT: FAIL
+[2026-09-28T08:53:57.118Z]   Criteria: EnteredCoasting=False, NoMeasDuringCoasting=True, StaleNotUsed=True, ResumedTracking=False
+[2026-09-28T08:53:58.635Z] --- TEST 5: REACQUISITION VALIDATION ---
+[2026-09-28T08:54:00.136Z] >>> CAUSING DROPOUT FOR REACQUISITION TEST <<<
+[2026-09-28T08:54:01.649Z] During Dropout: M4_State=SEARCH, Misses=888
+[2026-09-28T08:54:01.649Z] >>> RESTORING BEACON TARGET <<<
+[2026-09-28T08:54:06.084Z] TEST 5 RESULT: FAIL
+[2026-09-28T08:54:06.084Z]   Criteria: Reacquired=False, Time=-1.000s, M5_Active=True
+[2026-09-28T08:54:06.085Z] ========================================================
+[2026-09-28T08:54:06.085Z] INTEGRATION TEST RUN COMPLETE: ALL
+[2026-09-28T08:54:06.085Z] ========================================================
+[2026-09-28T09:00:07.306Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-8756).
+[2026-09-28T09:00:07.310Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T09:00:07.310Z] M1 Target: Mode=Linear, Visible=True, Pos=(5.15, 15.00, 60.00)
+[2026-09-28T09:00:07.310Z] M2 Camera: Pan=12.00°, Tilt=-6.00°, TargetPan=12.00°, TargetTilt=-6.00°
+[2026-09-28T09:00:07.310Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T09:00:07.310Z] M3 DetBridge (OPTINAV_DebugUI id=-8756): Connected=True, TotalRecv=759, Det=True, Pt=(267.5, 65.8), Conf=0.89, Latency=16.0ms
+[2026-09-28T09:00:07.311Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=OPTINAV_DebugUI(id=-8756)): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=0
+[2026-09-28T09:00:07.311Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=12.00°, CmdTilt=-6.00°
+[2026-09-28T09:00:07.311Z] ---------------------------------
+[2026-09-28T09:00:22.089Z] ========================================================
+[2026-09-28T09:00:22.089Z] STARTING INTEGRATION TEST: TEST1_STATIONARY
+[2026-09-28T09:00:22.089Z] ========================================================
+[2026-09-28T09:00:22.090Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-8756).
+[2026-09-28T09:00:23.099Z] --- TEST 1: STATIONARY BEACON VALIDATION ---
+[2026-09-28T09:00:24.116Z] Initial Baseline: Pan=90.00°, Tilt=-45.00°, PxErr=85.3px
+[2026-09-28T09:00:24.632Z] [0.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:25.149Z] [1.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:25.664Z] [1.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:26.165Z] [2.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:26.673Z] [2.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:27.180Z] [3.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:27.697Z] [3.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:28.198Z] [4.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:28.715Z] [4.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:29.216Z] [5.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:29.716Z] [5.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:30.219Z] [6.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(90.00°, -45.00°), Aligned=False
+[2026-09-28T09:00:30.219Z] TEST 1 RESULT: FAIL
+[2026-09-28T09:00:30.220Z]   Criteria: Detected=False, TrackingState=False, Aligned=False, FinalErr=-1.0px, FinalAngles=(90.00°, -45.00°)
+[2026-09-28T09:00:30.220Z] ========================================================
+[2026-09-28T09:00:30.220Z] INTEGRATION TEST RUN COMPLETE: TEST1_STATIONARY
+[2026-09-28T09:00:30.220Z] ========================================================
+[2026-09-28T09:02:14.231Z] ========================================================
+[2026-09-28T09:02:14.236Z] STARTING INTEGRATION TEST: TEST1_STATIONARY
+[2026-09-28T09:02:14.236Z] ========================================================
+[2026-09-28T09:02:14.237Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_DebugUI id=-9820).
+[2026-09-28T09:02:15.238Z] --- TEST 1: STATIONARY BEACON VALIDATION ---
+[2026-09-28T09:02:15.347Z] [Baseline +0.1s] Det=True(pt=319.5,102.0), M4=ACQUISITION(pt=319.5,102.0), M5_State=ACQUISITION, M5_Err=78.0px, Gimbal=(-0.14°, 25.36°), TargetAngles=(-0.19°, 33.82°)
+[2026-09-28T09:02:15.447Z] [Baseline +0.2s] Det=False(pt=-1.0,-1.0), M4=COASTING(pt=320.1,208.5), M5_State=COASTING, M5_Err=28.5px, Gimbal=(0.38°, -45.00°), TargetAngles=(0.39°, -45.00°)
+[2026-09-28T09:02:15.564Z] [Baseline +0.3s] Det=False(pt=-1.0,-1.0), M4=COASTING(pt=320.2,236.2), M5_State=COASTING, M5_Err=56.2px, Gimbal=(0.41°, -45.00°), TargetAngles=(0.41°, -45.00°)
+[2026-09-28T09:02:15.681Z] [Baseline +0.4s] Det=False(pt=-1.0,-1.0), M4=COASTING(pt=320.4,271.4), M5_State=COASTING, M5_Err=91.4px, Gimbal=(1.09°, -45.00°), TargetAngles=(1.14°, -45.00°)
+[2026-09-28T09:02:15.784Z] [Baseline +0.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:15.897Z] [Baseline +0.6s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:15.998Z] [Baseline +0.7s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:16.099Z] [Baseline +0.8s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:16.215Z] [Baseline +0.9s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:16.331Z] [Baseline +1.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_State=SEARCH, M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), TargetAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:16.331Z] Initial Baseline: Pan=1.43°, Tilt=-45.00°, PxErr=-1.0px
+[2026-09-28T09:02:16.847Z] [0.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:17.363Z] [1.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:17.983Z] [1.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:18.484Z] [2.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:18.995Z] [2.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:19.501Z] [3.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:20.012Z] [3.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:20.518Z] [4.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:21.029Z] [4.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:21.532Z] [5.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:22.045Z] [5.5s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:22.548Z] [6.0s] Det=False(pt=-1.0,-1.0), M4=SEARCH(pt=-1.0,-1.0), M5_Err=-1.0px, Gimbal=(1.43°, -45.00°), Aligned=False
+[2026-09-28T09:02:22.548Z] TEST 1 RESULT: FAIL
+[2026-09-28T09:02:22.548Z]   Criteria: Detected=False, TrackingState=False, Aligned=False, FinalErr=-1.0px, FinalAngles=(1.43°, -45.00°)
+[2026-09-28T09:02:22.548Z] ========================================================
+[2026-09-28T09:02:22.549Z] INTEGRATION TEST RUN COMPLETE: TEST1_STATIONARY
+[2026-09-28T09:02:22.549Z] ========================================================
+[2026-09-28T16:57:04.994Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_CommunicationBridge id=47082).
+[2026-09-28T16:57:04.999Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T16:57:05.000Z] M1 Target: Mode=Stationary, Visible=True, Pos=(0.00, 15.00, 60.00)
+[2026-09-28T16:57:05.000Z] M2 Camera: Pan=-54.96°, Tilt=-36.55°, TargetPan=-54.96°, TargetTilt=-36.55°
+[2026-09-28T16:57:05.000Z] M2 Disturb: Vib=False, Jitter=False, Haze=True, Blur=True, Noise=True
+[2026-09-28T16:57:05.000Z] M3 DetBridge (OPTINAV_CommunicationBridge id=47082): Connected=True, TotalRecv=628, Det=False, Pt=(-1.0, -1.0), Conf=0.00, Latency=18.0ms
+[2026-09-28T16:57:05.001Z] M4 Tracker (OPTINAV_TargetSystem id=47090 enabled=True active=True bridge=OPTINAV_CommunicationBridge(id=47082)): State=SEARCH, HasTrack=False, HasMeas=False, TrackedPt=(-1.0, -1.0), PredPt=(-1.0, -1.0), Misses=583
+[2026-09-28T16:57:05.001Z] M5 Control (OPTINAV_CameraRig id=47072): State=SEARCH, Aligned=False, PxErr=-1.0px, AngErr=-1.00°, CmdPan=-54.96°, CmdTilt=-36.55°
+[2026-09-28T16:57:05.001Z] ---------------------------------
+[2026-09-28T17:06:09.020Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_CommunicationBridge id=49052).
+[2026-09-28T17:06:09.024Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T17:06:09.024Z] M1 Target: Mode=Circular, Visible=True, Pos=(5.30, 9.00, 60.00)
+[2026-09-28T17:06:09.024Z] M2 Camera: Pan=4.96°, Tilt=8.50°, TargetPan=4.96°, TargetTilt=8.50°
+[2026-09-28T17:06:09.024Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T17:06:09.024Z] M3 DetBridge (OPTINAV_CommunicationBridge id=49052): Connected=True, TotalRecv=454, Det=True, Pt=(323.1, 178.8), Conf=0.89, Latency=16.1ms
+[2026-09-28T17:06:09.025Z] M4 Tracker (OPTINAV_TargetSystem id=49060 enabled=True active=True bridge=OPTINAV_CommunicationBridge(id=49052)): State=TRACKING, HasTrack=True, HasMeas=True, TrackedPt=(321.9, 178.9), PredPt=(321.5, 179.0), Misses=0
+[2026-09-28T17:06:09.025Z] M5 Control (OPTINAV_CameraRig id=49042): State=TRACKING, Aligned=True, PxErr=2.2px, AngErr=0.33°, CmdPan=4.96°, CmdTilt=8.50°
+[2026-09-28T17:06:09.025Z] ---------------------------------
+[2026-09-28T17:06:26.434Z] ========================================================
+[2026-09-28T17:06:26.434Z] STARTING INTEGRATION TEST: ALL
+[2026-09-28T17:06:26.435Z] ========================================================
+[2026-09-28T17:06:26.435Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_CommunicationBridge id=49052).
+[2026-09-28T17:06:27.443Z] --- TEST 1: STATIONARY BEACON VALIDATION ---
+[2026-09-28T17:06:27.559Z] [Baseline +0.1s] Det=True(pt=319.5,194.4), M4=TRACKING(pt=319.6,162.3), M5_State=TRACKING, M5_Err=17.7px, Gimbal=(0.00°, 16.71°), TargetAngles=(-0.11°, 16.02°)
+[2026-09-28T17:06:27.659Z] [Baseline +0.2s] Det=True(pt=319.7,166.6), M4=TRACKING(pt=319.7,179.2), M5_State=TRACKING, M5_Err=0.9px, Gimbal=(-0.06°, 11.01°), TargetAngles=(-0.06°, 11.01°)
+[2026-09-28T17:06:27.870Z] [Baseline +0.3s] Det=True(pt=319.7,163.1), M4=TRACKING(pt=319.7,175.5), M5_State=TRACKING, M5_Err=4.5px, Gimbal=(-0.06°, 11.76°), TargetAngles=(-0.06°, 11.76°)
+[2026-09-28T17:06:27.976Z] [Baseline +0.4s] Det=True(pt=319.8,196.9), M4=TRACKING(pt=319.9,179.4), M5_State=TRACKING, M5_Err=0.6px, Gimbal=(-0.06°, 15.80°), TargetAngles=(-0.06°, 15.80°)
+[2026-09-28T17:06:28.078Z] [Baseline +0.5s] Det=True(pt=319.9,171.9), M4=TRACKING(pt=319.9,183.6), M5_State=TRACKING, M5_Err=3.7px, Gimbal=(-0.06°, 12.63°), TargetAngles=(-0.06°, 12.44°)
+[2026-09-28T17:06:28.180Z] [Baseline +0.6s] Det=True(pt=319.8,173.8), M4=TRACKING(pt=319.8,178.5), M5_State=TRACKING, M5_Err=1.5px, Gimbal=(-0.06°, 13.74°), TargetAngles=(-0.06°, 13.74°)
+[2026-09-28T17:06:28.296Z] [Baseline +0.7s] Det=True(pt=319.8,182.2), M4=TRACKING(pt=319.8,178.8), M5_State=TRACKING, M5_Err=2.8px, Gimbal=(-0.06°, 14.97°), TargetAngles=(-0.06°, 14.97°)
+[2026-09-28T17:06:28.409Z] [Baseline +0.8s] Det=True(pt=320.0,180.7), M4=TRACKING(pt=319.9,182.2), M5_State=TRACKING, M5_Err=2.2px, Gimbal=(-0.06°, 12.78°), TargetAngles=(-0.06°, 12.78°)
+[2026-09-28T17:06:28.515Z] [Baseline +0.9s] Det=True(pt=319.8,173.2), M4=TRACKING(pt=319.8,175.9), M5_State=TRACKING, M5_Err=4.1px, Gimbal=(-0.06°, 13.75°), TargetAngles=(-0.06°, 14.59°)
+[2026-09-28T17:06:28.626Z] [Baseline +1.0s] Det=True(pt=319.8,183.9), M4=TRACKING(pt=319.8,179.9), M5_State=TRACKING, M5_Err=0.2px, Gimbal=(-0.06°, 14.50°), TargetAngles=(-0.06°, 14.50°)
+[2026-09-28T17:06:28.626Z] Initial Baseline: Pan=-0.06°, Tilt=14.50°, PxErr=0.2px
+[2026-09-28T17:06:29.128Z] [0.5s] Det=True(pt=320.1,178.4), M4=TRACKING(pt=319.7,180.4), M5_Err=0.5px, Gimbal=(-0.14°, 13.83°), Aligned=True
+[2026-09-28T17:06:29.632Z] [1.0s] Det=True(pt=320.1,180.7), M4=TRACKING(pt=320.1,180.1), M5_Err=0.1px, Gimbal=(-0.11°, 14.24°), Aligned=True
+[2026-09-28T17:06:30.144Z] [1.5s] Det=True(pt=320.0,179.5), M4=TRACKING(pt=320.1,180.4), M5_Err=0.4px, Gimbal=(-0.11°, 13.99°), Aligned=True
+[2026-09-28T17:06:30.646Z] [2.0s] Det=True(pt=320.2,180.6), M4=TRACKING(pt=320.2,180.3), M5_Err=0.3px, Gimbal=(-0.12°, 14.27°), Aligned=True
+[2026-09-28T17:06:31.159Z] [2.5s] Det=True(pt=320.2,179.9), M4=TRACKING(pt=320.3,180.4), M5_Err=0.5px, Gimbal=(-0.12°, 14.02°), Aligned=True
+[2026-09-28T17:06:31.676Z] [3.0s] Det=True(pt=320.0,180.2), M4=TRACKING(pt=319.9,180.0), M5_Err=0.1px, Gimbal=(-0.07°, 14.20°), Aligned=True
+[2026-09-28T17:06:32.182Z] [3.5s] Det=True(pt=320.0,180.2), M4=TRACKING(pt=319.9,180.5), M5_Err=0.5px, Gimbal=(-0.07°, 14.04°), Aligned=True
+[2026-09-28T17:06:32.693Z] [4.0s] Det=True(pt=319.6,179.6), M4=TRACKING(pt=319.7,180.1), M5_Err=0.3px, Gimbal=(-0.08°, 14.11°), Aligned=True
+[2026-09-28T17:06:33.197Z] [4.5s] Det=True(pt=320.0,180.7), M4=TRACKING(pt=319.9,180.4), M5_Err=0.4px, Gimbal=(-0.08°, 14.25°), Aligned=True
+[2026-09-28T17:06:33.699Z] [5.0s] Det=True(pt=319.6,180.1), M4=TRACKING(pt=319.8,180.0), M5_Err=0.2px, Gimbal=(-0.08°, 14.21°), Aligned=True
+[2026-09-28T17:06:34.201Z] [5.5s] Det=True(pt=319.9,179.5), M4=TRACKING(pt=319.9,180.1), M5_Err=0.2px, Gimbal=(-0.09°, 14.19°), Aligned=True
+[2026-09-28T17:06:34.708Z] [6.0s] Det=True(pt=320.0,180.5), M4=TRACKING(pt=320.0,180.5), M5_Err=0.5px, Gimbal=(-0.09°, 14.04°), Aligned=True
+[2026-09-28T17:06:34.709Z] TEST 1 RESULT: PASS
+[2026-09-28T17:06:34.709Z]   Criteria: Detected=True, TrackingState=True, Aligned=True, FinalErr=0.5px, FinalAngles=(-0.09°, 14.04°)
+[2026-09-28T17:06:36.216Z] --- TEST 2: MOVING BEACON (LINEAR / CIRCULAR) VALIDATION ---
+[2026-09-28T17:06:37.226Z] [0.5s] TargetPos=4.7, M3Det=True, M4State=TRACKING, M5Err=0.8px, CamAngles=(3.87°, 14.03°)
+[2026-09-28T17:06:37.730Z] [1.0s] TargetPos=6.5, M3Det=True, M4State=TRACKING, M5Err=1.4px, CamAngles=(5.92°, 14.14°)
+[2026-09-28T17:06:38.234Z] [1.5s] TargetPos=1.4, M3Det=True, M4State=TRACKING, M5Err=8.8px, CamAngles=(3.37°, 14.28°)
+[2026-09-28T17:06:38.743Z] [2.0s] TargetPos=3.8, M3Det=True, M4State=TRACKING, M5Err=0.9px, CamAngles=(2.88°, 14.11°)
+[2026-09-28T17:06:39.260Z] [2.5s] TargetPos=5.8, M3Det=True, M4State=TRACKING, M5Err=1.0px, CamAngles=(5.22°, 14.16°)
+[2026-09-28T17:06:39.776Z] [3.0s] TargetPos=2.2, M3Det=True, M4State=TRACKING, M5Err=8.7px, CamAngles=(0.85°, 14.27°)
+[2026-09-28T17:06:40.278Z] [3.5s] TargetPos=0.1, M3Det=True, M4State=TRACKING, M5Err=8.5px, CamAngles=(5.21°, 14.03°)
+[2026-09-28T17:06:40.780Z] [4.0s] TargetPos=2.6, M3Det=True, M4State=TRACKING, M5Err=4.5px, CamAngles=(-0.29°, 14.18°)
+[2026-09-28T17:06:41.282Z] [4.5s] TargetPos=0.7, M3Det=True, M4State=TRACKING, M5Err=20.7px, CamAngles=(0.21°, 14.29°)
+[2026-09-28T17:06:41.793Z] [5.0s] TargetPos=3.2, M3Det=True, M4State=TRACKING, M5Err=6.1px, CamAngles=(3.36°, 13.99°)
+[2026-09-28T17:06:42.298Z] [5.5s] TargetPos=1.3, M3Det=True, M4State=TRACKING, M5Err=2.0px, CamAngles=(-2.46°, 14.24°)
+[2026-09-28T17:06:42.798Z] [6.0s] TargetPos=3.7, M3Det=True, M4State=TRACKING, M5Err=0.9px, CamAngles=(4.50°, 14.19°)
+[2026-09-28T17:06:43.313Z] [6.5s] TargetPos=8.0, M3Det=True, M4State=TRACKING, M5Err=3.7px, CamAngles=(4.62°, 14.01°)
+[2026-09-28T17:06:43.814Z] [7.0s] TargetPos=7.6, M3Det=True, M4State=TRACKING, M5Err=3.4px, CamAngles=(6.73°, 16.27°)
+[2026-09-28T17:06:44.317Z] [7.5s] TargetPos=6.4, M3Det=True, M4State=TRACKING, M5Err=1.3px, CamAngles=(6.30°, 18.14°)
+[2026-09-28T17:06:44.826Z] [8.0s] TargetPos=4.6, M3Det=True, M4State=TRACKING, M5Err=1.7px, CamAngles=(4.42°, 19.72°)
+[2026-09-28T17:06:44.826Z] TEST 2 RESULT: PASS
+[2026-09-28T17:06:44.827Z]   Criteria: TrackingActive=True (16/16), CameraFollowed=True (PanRange=9.20°)
+[2026-09-28T17:06:46.344Z] --- TEST 3: CAMERA / PLATFORM DISTURBANCE VALIDATION ---
+[2026-09-28T17:06:46.344Z] Disturbances Enabled: Vibration=ON, Jitter=ON, Haze=ON, Blur=0.35, Noise=0.20
+[2026-09-28T17:06:46.847Z] [0.5s] Det=True(conf=0.68), State=TRACKING, M5Err=5.1px, Gimbal=(-2.71°, 11.85°)
+[2026-09-28T17:06:47.360Z] [1.0s] Det=True(conf=0.73), State=TRACKING, M5Err=2.4px, Gimbal=(0.21°, 15.23°)
+[2026-09-28T17:06:47.862Z] [1.5s] Det=True(conf=0.66), State=TRACKING, M5Err=1.8px, Gimbal=(-0.77°, 13.42°)
+[2026-09-28T17:06:48.363Z] [2.0s] Det=True(conf=0.70), State=TRACKING, M5Err=0.7px, Gimbal=(0.17°, 14.49°)
+[2026-09-28T17:06:48.866Z] [2.5s] Det=True(conf=0.64), State=TRACKING, M5Err=1.4px, Gimbal=(0.17°, 13.65°)
+[2026-09-28T17:06:49.392Z] [3.0s] Det=True(conf=0.67), State=TRACKING, M5Err=0.2px, Gimbal=(-0.40°, 13.91°)
+[2026-09-28T17:06:49.893Z] [3.5s] Det=True(conf=0.64), State=TRACKING, M5Err=1.9px, Gimbal=(-0.31°, 13.91°)
+[2026-09-28T17:06:50.396Z] [4.0s] Det=True(conf=0.62), State=TRACKING, M5Err=1.0px, Gimbal=(0.27°, 14.35°)
+[2026-09-28T17:06:50.910Z] [4.5s] Det=True(conf=0.69), State=TRACKING, M5Err=0.7px, Gimbal=(0.00°, 14.12°)
+[2026-09-28T17:06:51.413Z] [5.0s] Det=True(conf=0.73), State=TRACKING, M5Err=3.0px, Gimbal=(-0.08°, 14.04°)
+[2026-09-28T17:06:51.926Z] [5.5s] Det=True(conf=0.76), State=TRACKING, M5Err=0.7px, Gimbal=(0.34°, 13.87°)
+[2026-09-28T17:06:52.426Z] [6.0s] Det=True(conf=0.77), State=TRACKING, M5Err=1.2px, Gimbal=(-0.93°, 14.99°)
+[2026-09-28T17:06:52.427Z] TEST 3 RESULT: PASS
+[2026-09-28T17:06:52.428Z]   Criteria: DetectionRate=12/12, TrackingFunctional=12/12
+[2026-09-28T17:06:53.931Z] --- TEST 4: SHORT BEACON DROPOUT VALIDATION ---
+[2026-09-28T17:06:55.931Z] [PRE-DROPOUT] State=TRACKING, HasMeas=True, Pt=(319.8, 180.0)
+[2026-09-28T17:06:55.932Z] >>> TRIGGERING BEACON VISIBILITY LOSS (DROPOUT) <<<
+[2026-09-28T17:06:56.193Z] [DROPOUT 0.25s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=12
+[2026-09-28T17:06:56.446Z] [DROPOUT 0.50s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=26
+[2026-09-28T17:06:56.698Z] [DROPOUT 0.75s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=38
+[2026-09-28T17:06:56.959Z] [DROPOUT 1.00s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=52
+[2026-09-28T17:06:57.214Z] [DROPOUT 1.25s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=66
+[2026-09-28T17:06:57.475Z] [DROPOUT 1.50s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=80
+[2026-09-28T17:06:57.731Z] [DROPOUT 1.75s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=92
+[2026-09-28T17:06:57.992Z] [DROPOUT 2.00s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=106
+[2026-09-28T17:06:57.993Z] >>> RESTORING BEACON VISIBILITY <<<
+[2026-09-28T17:06:59.496Z] [POST-DROPOUT] M3_Det=True, M4_State=TRACKING, M4_HasMeas=True, Misses=0
+[2026-09-28T17:06:59.496Z] TEST 4 RESULT: FAIL
+[2026-09-28T17:06:59.497Z]   Criteria: EnteredCoasting=False, NoMeasDuringCoasting=True, StaleNotUsed=True, ResumedTracking=True
+[2026-09-28T17:07:00.999Z] --- TEST 5: REACQUISITION VALIDATION ---
+[2026-09-28T17:07:02.509Z] >>> CAUSING DROPOUT FOR REACQUISITION TEST <<<
+[2026-09-28T17:07:04.012Z] During Dropout: M4_State=SEARCH, Misses=76
+[2026-09-28T17:07:04.013Z] >>> RESTORING BEACON TARGET <<<
+[2026-09-28T17:07:04.126Z] [REACQUIRED in 0.113s] M3_Det=True, M4_State=TRACKING, M4_MeasAccepted=True, MissesReset=True
+[2026-09-28T17:07:04.127Z] TEST 5 RESULT: PASS
+[2026-09-28T17:07:04.127Z]   Criteria: Reacquired=True, Time=0.113s, M5_Active=True
+[2026-09-28T17:07:04.127Z] ========================================================
+[2026-09-28T17:07:04.127Z] INTEGRATION TEST RUN COMPLETE: ALL
+[2026-09-28T17:07:04.128Z] ========================================================
+[2026-09-28T17:09:00.344Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_CommunicationBridge id=49352).
+[2026-09-28T17:09:00.349Z] --- SYSTEM TELEMETRY SNAPSHOT ---
+[2026-09-28T17:09:00.349Z] M1 Target: Mode=Circular, Visible=True, Pos=(-7.98, 15.60, 60.00)
+[2026-09-28T17:09:00.349Z] M2 Camera: Pan=-7.62°, Tilt=14.81°, TargetPan=-7.62°, TargetTilt=14.81°
+[2026-09-28T17:09:00.349Z] M2 Disturb: Vib=False, Jitter=False, Haze=False, Blur=False, Noise=False
+[2026-09-28T17:09:00.350Z] M3 DetBridge (OPTINAV_CommunicationBridge id=49352): Connected=True, TotalRecv=1334, Det=True, Pt=(320.2, 181.1), Conf=0.91, Latency=19.6ms
+[2026-09-28T17:09:00.350Z] M4 Tracker (OPTINAV_TargetSystem id=49360 enabled=True active=True bridge=OPTINAV_CommunicationBridge(id=49352)): State=TRACKING, HasTrack=True, HasMeas=True, TrackedPt=(319.7, 181.7), PredPt=(319.6, 181.9), Misses=0
+[2026-09-28T17:09:00.350Z] M5 Control (OPTINAV_CameraRig id=49342): State=TRACKING, Aligned=True, PxErr=1.7px, AngErr=0.28°, CmdPan=-7.62°, CmdTilt=14.81°
+[2026-09-28T17:09:00.350Z] ---------------------------------
+[2026-09-28T17:09:27.805Z] ========================================================
+[2026-09-28T17:09:27.806Z] STARTING INTEGRATION TEST: ALL
+[2026-09-28T17:09:27.806Z] ========================================================
+[2026-09-28T17:09:27.807Z] [OPTINAV Pipeline] M3->M4 event linked to active bridge (OPTINAV_CommunicationBridge id=49352).
+[2026-09-28T17:09:28.810Z] --- TEST 1: STATIONARY BEACON VALIDATION ---
+[2026-09-28T17:09:28.911Z] [Baseline +0.1s] Det=True(pt=320.4,197.1), M4=TRACKING(pt=320.1,163.6), M5_State=TRACKING, M5_Err=16.4px, Gimbal=(-0.07°, 16.37°), TargetAngles=(-0.07°, 16.37°)
+[2026-09-28T17:09:29.015Z] [Baseline +0.2s] Det=True(pt=320.0,160.5), M4=TRACKING(pt=320.1,174.1), M5_State=TRACKING, M5_Err=0.5px, Gimbal=(-0.05°, 10.53°), TargetAngles=(-0.05°, 10.53°)
+[2026-09-28T17:09:29.116Z] [Baseline +0.3s] Det=True(pt=320.2,181.2), M4=TRACKING(pt=320.2,179.3), M5_State=TRACKING, M5_Err=0.7px, Gimbal=(-0.05°, 13.62°), TargetAngles=(-0.05°, 13.62°)
+[2026-09-28T17:09:29.220Z] [Baseline +0.4s] Det=True(pt=319.7,173.9), M4=TRACKING(pt=319.9,180.1), M5_State=TRACKING, M5_Err=0.1px, Gimbal=(-0.05°, 13.00°), TargetAngles=(-0.05°, 13.00°)
+[2026-09-28T17:09:29.327Z] [Baseline +0.5s] Det=True(pt=319.9,178.6), M4=TRACKING(pt=319.9,179.3), M5_State=TRACKING, M5_Err=0.7px, Gimbal=(-0.05°, 13.89°), TargetAngles=(-0.05°, 13.89°)
+[2026-09-28T17:09:29.430Z] [Baseline +0.6s] Det=True(pt=319.9,179.0), M4=TRACKING(pt=319.8,180.2), M5_State=TRACKING, M5_Err=0.2px, Gimbal=(-0.05°, 13.74°), TargetAngles=(-0.05°, 13.74°)
+[2026-09-28T17:09:29.533Z] [Baseline +0.7s] Det=True(pt=319.9,178.4), M4=TRACKING(pt=319.9,179.7), M5_State=TRACKING, M5_Err=0.3px, Gimbal=(-0.05°, 13.76°), TargetAngles=(-0.05°, 13.78°)
+[2026-09-28T17:09:29.641Z] [Baseline +0.8s] Det=True(pt=319.6,179.5), M4=TRACKING(pt=319.8,179.4), M5_State=TRACKING, M5_Err=0.7px, Gimbal=(-0.05°, 14.26°), TargetAngles=(-0.05°, 14.26°)
+[2026-09-28T17:09:29.742Z] [Baseline +0.9s] Det=True(pt=319.9,180.8), M4=TRACKING(pt=319.8,180.4), M5_State=TRACKING, M5_Err=0.4px, Gimbal=(-0.05°, 14.21°), TargetAngles=(-0.05°, 14.09°)
+[2026-09-28T17:09:29.845Z] [Baseline +1.0s] Det=True(pt=319.9,179.3), M4=TRACKING(pt=319.8,180.2), M5_State=TRACKING, M5_Err=0.3px, Gimbal=(-0.05°, 13.93°), TargetAngles=(-0.05°, 14.06°)
+[2026-09-28T17:09:29.845Z] Initial Baseline: Pan=-0.05°, Tilt=13.93°, PxErr=0.3px
+[2026-09-28T17:09:30.347Z] [0.5s] Det=True(pt=319.8,180.2), M4=TRACKING(pt=319.7,180.0), M5_Err=0.3px, Gimbal=(-0.05°, 14.24°), Aligned=True
+[2026-09-28T17:09:30.858Z] [1.0s] Det=True(pt=319.9,180.5), M4=TRACKING(pt=319.8,180.2), M5_Err=0.3px, Gimbal=(-0.05°, 14.24°), Aligned=True
+[2026-09-28T17:09:31.375Z] [1.5s] Det=True(pt=319.9,180.4), M4=TRACKING(pt=319.7,180.1), M5_Err=0.3px, Gimbal=(-0.06°, 14.18°), Aligned=True
+[2026-09-28T17:09:31.892Z] [2.0s] Det=True(pt=319.5,180.1), M4=TRACKING(pt=319.8,180.4), M5_Err=0.5px, Gimbal=(-0.06°, 14.02°), Aligned=True
+[2026-09-28T17:09:32.397Z] [2.5s] Det=True(pt=319.5,180.1), M4=TRACKING(pt=319.6,180.1), M5_Err=0.4px, Gimbal=(-0.06°, 14.19°), Aligned=True
+[2026-09-28T17:09:32.908Z] [3.0s] Det=True(pt=319.9,180.1), M4=TRACKING(pt=320.1,180.5), M5_Err=0.6px, Gimbal=(-0.10°, 14.06°), Aligned=True
+[2026-09-28T17:09:33.411Z] [3.5s] Det=True(pt=320.2,180.6), M4=TRACKING(pt=320.1,180.4), M5_Err=0.4px, Gimbal=(-0.11°, 14.24°), Aligned=True
+[2026-09-28T17:09:33.925Z] [4.0s] Det=True(pt=320.3,180.5), M4=TRACKING(pt=320.2,180.1), M5_Err=0.2px, Gimbal=(-0.11°, 14.22°), Aligned=True
+[2026-09-28T17:09:34.442Z] [4.5s] Det=True(pt=320.1,180.2), M4=TRACKING(pt=320.2,180.5), M5_Err=0.5px, Gimbal=(-0.12°, 14.02°), Aligned=True
+[2026-09-28T17:09:34.945Z] [5.0s] Det=True(pt=320.2,180.6), M4=TRACKING(pt=320.2,180.4), M5_Err=0.4px, Gimbal=(-0.12°, 14.11°), Aligned=True
+[2026-09-28T17:09:35.448Z] [5.5s] Det=True(pt=320.3,180.0), M4=TRACKING(pt=320.2,179.8), M5_Err=0.3px, Gimbal=(-0.13°, 14.17°), Aligned=True
+[2026-09-28T17:09:35.959Z] [6.0s] Det=True(pt=320.0,179.5), M4=TRACKING(pt=320.1,180.2), M5_Err=0.5px, Gimbal=(-0.13°, 14.00°), Aligned=True
+[2026-09-28T17:09:35.959Z] TEST 1 RESULT: PASS
+[2026-09-28T17:09:35.959Z]   Criteria: Detected=True, TrackingState=True, Aligned=True, FinalErr=0.5px, FinalAngles=(-0.13°, 14.00°)
+[2026-09-28T17:09:37.476Z] --- TEST 2: MOVING BEACON (LINEAR / CIRCULAR) VALIDATION ---
+[2026-09-28T17:09:38.495Z] [0.5s] TargetPos=4.8, M3Det=True, M4State=TRACKING, M5Err=2.1px, CamAngles=(3.29°, 14.09°)
+[2026-09-28T17:09:38.996Z] [1.0s] TargetPos=6.5, M3Det=True, M4State=TRACKING, M5Err=5.5px, CamAngles=(6.99°, 14.11°)
+[2026-09-28T17:09:39.509Z] [1.5s] TargetPos=7.6, M3Det=True, M4State=TRACKING, M5Err=3.6px, CamAngles=(6.68°, 14.15°)
+[2026-09-28T17:09:40.026Z] [2.0s] TargetPos=8.0, M3Det=True, M4State=TRACKING, M5Err=3.4px, CamAngles=(8.16°, 13.97°)
+[2026-09-28T17:09:40.527Z] [2.5s] TargetPos=7.5, M3Det=True, M4State=TRACKING, M5Err=0.2px, CamAngles=(7.13°, 14.09°)
+[2026-09-28T17:09:41.042Z] [3.0s] TargetPos=6.3, M3Det=True, M4State=TRACKING, M5Err=1.2px, CamAngles=(6.14°, 14.06°)
+[2026-09-28T17:09:41.546Z] [3.5s] TargetPos=4.4, M3Det=True, M4State=TRACKING, M5Err=3.2px, CamAngles=(4.35°, 14.08°)
+[2026-09-28T17:09:42.047Z] [4.0s] TargetPos=2.2, M3Det=True, M4State=TRACKING, M5Err=0.4px, CamAngles=(2.86°, 14.12°)
+[2026-09-28T17:09:42.550Z] [4.5s] TargetPos=-0.3, M3Det=True, M4State=TRACKING, M5Err=1.9px, CamAngles=(-0.24°, 14.18°)
+[2026-09-28T17:09:43.059Z] [5.0s] TargetPos=-2.8, M3Det=True, M4State=TRACKING, M5Err=2.4px, CamAngles=(-2.51°, 14.13°)
+[2026-09-28T17:09:43.575Z] [5.5s] TargetPos=-5.0, M3Det=True, M4State=TRACKING, M5Err=1.4px, CamAngles=(-4.46°, 14.04°)
+[2026-09-28T17:09:44.091Z] [6.0s] TargetPos=-6.7, M3Det=True, M4State=TRACKING, M5Err=1.1px, CamAngles=(-6.23°, 14.03°)
+[2026-09-28T17:09:44.609Z] [6.5s] TargetPos=-7.7, M3Det=True, M4State=TRACKING, M5Err=0.6px, CamAngles=(-7.33°, 14.09°)
+[2026-09-28T17:09:45.125Z] [7.0s] TargetPos=-8.0, M3Det=True, M4State=TRACKING, M5Err=0.5px, CamAngles=(-7.78°, 14.07°)
+[2026-09-28T17:09:45.642Z] [7.5s] TargetPos=-7.4, M3Det=True, M4State=TRACKING, M5Err=0.8px, CamAngles=(-7.26°, 13.91°)
+[2026-09-28T17:09:46.142Z] [8.0s] TargetPos=-6.1, M3Det=True, M4State=TRACKING, M5Err=0.9px, CamAngles=(-6.16°, 14.01°)
+[2026-09-28T17:09:46.142Z] TEST 2 RESULT: PASS
+[2026-09-28T17:09:46.143Z]   Criteria: TrackingActive=True (16/16), CameraFollowed=True (PanRange=15.94°)
+[2026-09-28T17:09:47.645Z] --- TEST 3: CAMERA / PLATFORM DISTURBANCE VALIDATION ---
+[2026-09-28T17:09:47.645Z] Disturbances Enabled: Vibration=ON, Jitter=ON, Haze=ON, Blur=0.35, Noise=0.20
+[2026-09-28T17:09:48.160Z] [0.5s] Det=True(conf=0.76), State=TRACKING, M5Err=3.7px, Gimbal=(-2.56°, 14.76°)
+[2026-09-28T17:09:48.675Z] [1.0s] Det=True(conf=0.70), State=TRACKING, M5Err=11.9px, Gimbal=(3.26°, 13.02°)
+[2026-09-28T17:09:49.176Z] [1.5s] Det=True(conf=0.71), State=TRACKING, M5Err=1.5px, Gimbal=(-1.68°, 15.02°)
+[2026-09-28T17:09:49.680Z] [2.0s] Det=True(conf=0.77), State=TRACKING, M5Err=3.4px, Gimbal=(1.41°, 13.64°)
+[2026-09-28T17:09:50.191Z] [2.5s] Det=True(conf=0.68), State=TRACKING, M5Err=2.1px, Gimbal=(-0.13°, 14.31°)
+[2026-09-28T17:09:50.691Z] [3.0s] Det=True(conf=0.74), State=TRACKING, M5Err=1.9px, Gimbal=(-0.40°, 14.34°)
+[2026-09-28T17:09:51.197Z] [3.5s] Det=True(conf=0.73), State=TRACKING, M5Err=0.8px, Gimbal=(-0.05°, 13.81°)
+[2026-09-28T17:09:51.698Z] [4.0s] Det=True(conf=0.76), State=TRACKING, M5Err=0.5px, Gimbal=(0.12°, 14.50°)
+[2026-09-28T17:09:52.202Z] [4.5s] Det=True(conf=0.71), State=TRACKING, M5Err=0.7px, Gimbal=(-0.15°, 14.26°)
+[2026-09-28T17:09:52.708Z] [5.0s] Det=True(conf=0.73), State=TRACKING, M5Err=1.2px, Gimbal=(-0.45°, 13.63°)
+[2026-09-28T17:09:53.215Z] [5.5s] Det=True(conf=0.66), State=TRACKING, M5Err=1.1px, Gimbal=(-0.05°, 14.05°)
+[2026-09-28T17:09:53.724Z] [6.0s] Det=True(conf=0.76), State=TRACKING, M5Err=0.5px, Gimbal=(-0.48°, 14.53°)
+[2026-09-28T17:09:53.725Z] TEST 3 RESULT: PASS
+[2026-09-28T17:09:53.725Z]   Criteria: DetectionRate=12/12, TrackingFunctional=12/12
+[2026-09-28T17:09:55.242Z] --- TEST 4: SHORT BEACON DROPOUT VALIDATION ---
+[2026-09-28T17:09:57.248Z] [PRE-DROPOUT] State=TRACKING, HasMeas=True, Pt=(319.8, 180.1)
+[2026-09-28T17:09:57.248Z] >>> TRIGGERING BEACON VISIBILITY LOSS (DROPOUT) <<<
+[2026-09-28T17:09:57.291Z] [DROPOUT 0.04s] M3_Det=False(pt=-1.0,-1.0), M4_State=COASTING, M4_HasMeas=False, M4_Tracked=(319.9,180.1), Misses=2
+[2026-09-28T17:09:57.341Z] [DROPOUT 0.08s] M3_Det=False(pt=-1.0,-1.0), M4_State=COASTING, M4_HasMeas=False, M4_Tracked=(320.0,180.2), Misses=4
+[2026-09-28T17:09:57.391Z] [DROPOUT 0.12s] M3_Det=False(pt=-1.0,-1.0), M4_State=COASTING, M4_HasMeas=False, M4_Tracked=(320.0,180.2), Misses=6
+[2026-09-28T17:09:57.442Z] [DROPOUT 0.16s] M3_Det=False(pt=-1.0,-1.0), M4_State=COASTING, M4_HasMeas=False, M4_Tracked=(320.0,180.2), Misses=8
+[2026-09-28T17:09:57.791Z] [DROPOUT 0.44s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=28
+[2026-09-28T17:09:58.141Z] [DROPOUT 0.72s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=46
+[2026-09-28T17:09:58.491Z] [DROPOUT 1.00s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=64
+[2026-09-28T17:09:58.842Z] [DROPOUT 1.28s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=82
+[2026-09-28T17:09:59.164Z] [DROPOUT 1.56s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=98
+[2026-09-28T17:09:59.508Z] [DROPOUT 1.84s] M3_Det=False(pt=-1.0,-1.0), M4_State=SEARCH, M4_HasMeas=False, M4_Tracked=(-1.0,-1.0), Misses=116
+[2026-09-28T17:09:59.758Z] >>> RESTORING BEACON VISIBILITY <<<
+[2026-09-28T17:10:01.261Z] [POST-DROPOUT] M3_Det=True, M4_State=TRACKING, M4_HasMeas=True, Misses=0
+[2026-09-28T17:10:01.262Z] TEST 4 RESULT: PASS
+[2026-09-28T17:10:01.262Z]   Criteria: EnteredCoasting=True, NoMeasDuringCoasting=True, StaleNotUsed=True, ResumedTracking=True
+[2026-09-28T17:10:02.776Z] --- TEST 5: REACQUISITION VALIDATION ---
+[2026-09-28T17:10:04.279Z] >>> CAUSING DROPOUT FOR REACQUISITION TEST <<<
+[2026-09-28T17:10:05.780Z] During Dropout: M4_State=SEARCH, Misses=74
+[2026-09-28T17:10:05.780Z] >>> RESTORING BEACON TARGET <<<
+[2026-09-28T17:10:05.891Z] [REACQUIRED in 0.111s] M3_Det=True, M4_State=TRACKING, M4_MeasAccepted=True, MissesReset=True
+[2026-09-28T17:10:05.892Z] TEST 5 RESULT: PASS
+[2026-09-28T17:10:05.892Z]   Criteria: Reacquired=True, Time=0.111s, M5_Active=True
+[2026-09-28T17:10:05.892Z] ========================================================
+[2026-09-28T17:10:05.892Z] INTEGRATION TEST RUN COMPLETE: ALL
+[2026-09-28T17:10:05.893Z] ========================================================

@@ -114,7 +114,7 @@ namespace OPTINAV.Detection
             {
                 if (Application.isPlaying)
                 {
-                    Destroy(gameObject);
+                    Destroy(this);
                     return;
                 }
             }

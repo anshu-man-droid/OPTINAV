@@ -12,7 +12,7 @@ namespace OPTINAV.Detection
     /// - During dropout / not detected, the detection marker is hidden and NOT DETECTED is displayed.
     /// - Benchmarking against ground-truth is optional, separate, and explicitly labeled.
     /// </summary>
-    [RequireComponent(typeof(OPTINAVDetectionBridge))]
+    // Do not require OPTINAVDetectionBridge to avoid inadvertent duplicate bridge component creation
     [DisallowMultipleComponent]
     public class OPTINAVDetectionVisualizer : MonoBehaviour
     {
@@ -53,7 +53,7 @@ namespace OPTINAV.Detection
 
         private void Awake()
         {
-            detectionBridge = GetComponent<OPTINAVDetectionBridge>();
+            detectionBridge = GetComponent<OPTINAVDetectionBridge>() ?? OPTINAVDetectionBridge.Instance ?? FindFirstObjectByType<OPTINAVDetectionBridge>();
             cameraController = FindFirstObjectByType<OPTINAVCameraController>();
             targetManager = FindFirstObjectByType<OPTINAVTargetManager>();
 

@@ -118,6 +118,8 @@ namespace OPTINAV.Control
         // Internal State
         private TrackingResult latestTrackingResult = TrackingResult.CreateEmpty();
         private bool hasReceivedTrackingResult = false;
+        private long lastProcessedTrackingFrameId = -1;
+        private float lastControlTime = -1f;
         private float searchTimer = 0f;
         private int updateCounter = 0;
         private float rateTimer = 0f;
@@ -224,7 +226,6 @@ namespace OPTINAV.Control
             if (dt <= 0f) return;
 
             // Update performance measurement
-            updateCounter++;
             rateTimer += dt;
             if (rateTimer >= 1.0f)
             {
@@ -244,19 +245,34 @@ namespace OPTINAV.Control
             switch (currentTrackingState)
             {
                 case TrackingState.TRACKING:
-                    ExecuteClosedLoopTracking(dt, allowIntegral: true);
-                    break;
-
                 case TrackingState.ACQUISITION:
-                    // During acquisition, close loop gently with damped integration to avoid overshoot
-                    ExecuteClosedLoopTracking(dt, allowIntegral: false);
-                    break;
-
                 case TrackingState.COASTING:
-                    // During coasting (sensor dropout), extrapolate with predicted position;
-                    // Freeze integral accumulation to prevent windup on open-loop estimates
-                    ExecuteCoastingTracking(dt);
+                {
+                    // Guard against repeated closed-loop execution on the same stale measurement at render rate
+                    bool isNewResult = (latestTrackingResult.frameId != lastProcessedTrackingFrameId && latestTrackingResult.frameId > 0);
+                    if (isNewResult)
+                    {
+                        lastProcessedTrackingFrameId = latestTrackingResult.frameId;
+                        float now = Time.time;
+                        float controlDt = (lastControlTime > 0f) ? Mathf.Clamp(now - lastControlTime, 0.001f, 0.5f) : (dt > 0f ? dt : 0.04f);
+                        lastControlTime = now;
+                        updateCounter++;
+
+                        if (currentTrackingState == TrackingState.TRACKING)
+                        {
+                            ExecuteClosedLoopTracking(controlDt, allowIntegral: true);
+                        }
+                        else if (currentTrackingState == TrackingState.ACQUISITION)
+                        {
+                            ExecuteClosedLoopTracking(controlDt, allowIntegral: false);
+                        }
+                        else // COASTING
+                        {
+                            ExecuteCoastingTracking(controlDt);
+                        }
+                    }
                     break;
+                }
 
                 case TrackingState.LOST:
                 case TrackingState.SEARCH:
@@ -332,7 +348,7 @@ namespace OPTINAV.Control
                 predPixel = latestTrackingResult.TrackedPixel;
             }
 
-            if (predPixel.x >= 0f && predPixel.y >= 0f)
+            if (predPixel.x >= 0f && predPixel.x <= frameWidth && predPixel.y >= 0f && predPixel.y <= frameHeight)
             {
                 float centerX = frameWidth * 0.5f;
                 float centerY = frameHeight * 0.5f;
@@ -384,7 +400,11 @@ namespace OPTINAV.Control
                 commandedTiltAngle = Mathf.Clamp(searchTilt, cameraRig.MinTilt, cameraRig.MaxTilt);
                 cameraRig.SetTargetAngles(commandedPanAngle, commandedTiltAngle);
             }
-            // If search pattern is disabled, hold current orientation smoothly without driving gimbal
+            else
+            {
+                // Smoothly hold commanded orientation without continuing to drive toward stale limits
+                cameraRig.SetTargetAngles(commandedPanAngle, commandedTiltAngle);
+            }
         }
 
         /// <summary>
@@ -427,6 +447,13 @@ namespace OPTINAV.Control
             currentPixelErrorTotal = 0f;
             currentAngularErrorTotal = 0f;
             searchTimer = 0f;
+            lastProcessedTrackingFrameId = -1;
+            lastControlTime = -1f;
+            if (cameraRig != null)
+            {
+                commandedPanAngle = cameraRig.CurrentPanAngle;
+                commandedTiltAngle = cameraRig.CurrentTiltAngle;
+            }
         }
     }
 }

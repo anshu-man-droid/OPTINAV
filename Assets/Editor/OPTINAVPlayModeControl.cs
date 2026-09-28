@@ -44,6 +44,11 @@ namespace OPTINAV.Editor
                         Debug.Log("[OPTINAVPlayModeControl] Refreshing AssetDatabase...");
                         AssetDatabase.Refresh();
                     }
+                    else if (cmd == "reload")
+                    {
+                        Debug.Log("[OPTINAVPlayModeControl] Reloading SampleScene...");
+                        UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity");
+                    }
                     else if (cmd == "play" && !EditorApplication.isPlaying)
                     {
                         Debug.Log("[OPTINAVPlayModeControl] Starting Play Mode...");

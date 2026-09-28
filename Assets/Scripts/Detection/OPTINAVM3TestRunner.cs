@@ -46,7 +46,7 @@ namespace OPTINAV.Detection
     {
         [Header("Test Configuration")]
         [Tooltip("Automatically execute test suite on Start")]
-        [SerializeField] private bool runAutomatedTest = true;
+        [SerializeField] private bool runAutomatedTest = false;
 
         [Tooltip("Duration in seconds for each test phase")]
         [SerializeField] private float phaseDuration = 4.0f;
@@ -77,14 +77,10 @@ namespace OPTINAV.Detection
             if (cameraRig == null) cameraRig = FindFirstObjectByType<OPTINAVCameraRig>();
             if (cameraController == null) cameraController = FindFirstObjectByType<OPTINAVCameraController>();
             if (frameCapture == null) frameCapture = FindFirstObjectByType<OPTINAVFrameCapture>();
-            if (detectionBridge == null) detectionBridge = FindFirstObjectByType<OPTINAVDetectionBridge>();
+            if (detectionBridge == null) detectionBridge = OPTINAVDetectionBridge.Instance ?? FindFirstObjectByType<OPTINAVDetectionBridge>();
 
-            if (detectionBridge == null && gameObject.GetComponent<OPTINAVDetectionBridge>() == null)
-            {
-                detectionBridge = gameObject.AddComponent<OPTINAVDetectionBridge>();
-            }
-
-            if (gameObject.GetComponent<OPTINAVDetectionVisualizer>() == null)
+            var existingVisualizer = FindFirstObjectByType<OPTINAVDetectionVisualizer>();
+            if (existingVisualizer == null && gameObject.GetComponent<OPTINAVDetectionVisualizer>() == null)
             {
                 gameObject.AddComponent<OPTINAVDetectionVisualizer>();
             }

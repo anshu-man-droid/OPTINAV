@@ -822,7 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950e7d3889ebe4972a6e990225aca14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OPTINAV.Detection.OPTINAVM3TestRunner
-  runAutomatedTest: 1
+  runAutomatedTest: 0
   phaseDuration: 4
   disturbanceController: {fileID: 790089512}
   targetManager: {fileID: 1849959078}

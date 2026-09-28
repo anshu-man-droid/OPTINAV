@@ -133,7 +133,7 @@ namespace OPTINAV.Tracking
             {
                 if (Application.isPlaying)
                 {
-                    Destroy(gameObject);
+                    Destroy(this);
                     return;
                 }
             }
@@ -154,11 +154,12 @@ namespace OPTINAV.Tracking
         {
             if (detectionBridge == null)
             {
-                detectionBridge = FindFirstObjectByType<OPTINAVDetectionBridge>();
+                detectionBridge = OPTINAVDetectionBridge.Instance ?? FindFirstObjectByType<OPTINAVDetectionBridge>();
             }
 
             if (autoSubscribeBridge && detectionBridge != null)
             {
+                detectionBridge.OnDetectionReceived -= OnBridgeDetectionReceived;
                 detectionBridge.OnDetectionReceived += OnBridgeDetectionReceived;
             }
         }
